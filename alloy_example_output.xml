@@ -1,0 +1,35 @@
+<alloy builddate="1970-01-01T00:00:00Z">
+
+<instance bitwidth="4" maxseq="2" command="Run example for 2" filename="">
+
+<sig label="seq/Int" ID="0" parentID="1" builtin="yes">
+</sig>
+
+<sig label="Int" ID="1" parentID="2" builtin="yes">
+</sig>
+
+<sig label="String" ID="3" parentID="2" builtin="yes">
+</sig>
+
+<sig label="this/Archietecture" ID="4" parentID="2">
+   <atom label="Archietecture$0"/>
+   <atom label="Archietecture$1"/>
+</sig>
+
+<field label="comps" ID="5" parentID="4">
+   <tuple> <atom label="Archietecture$0"/> <atom label="Component$1"/> </tuple>
+   <tuple> <atom label="Archietecture$1"/> <atom label="Component$0"/> </tuple>
+   <types> <type ID="4"/> <type ID="6"/> </types>
+</field>
+
+<sig label="this/Component" ID="6" parentID="2">
+   <atom label="Component$0"/>
+   <atom label="Component$1"/>
+</sig>
+
+<sig label="univ" ID="2" builtin="yes">
+</sig>
+
+</instance>
+
+</alloy>
