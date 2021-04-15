@@ -75,8 +75,8 @@ public final class ExampleUsingTheCompiler {
                 System.out.flush();
             }
         };
-//        String filename = args[0];
-        String filename = "/Users/yuchenxi/dsl/Project/Implementation/splmodel/Banking_Machine/hh.als";
+        String filename = args[0];
+//        String filename = "/Users/yuchenxi/dsl/Project/Implementation/splmodel/Banking_Machine/hh.als";
 //        String filename = "/Users/yuchenxi/Downloads/G-Play/ICC2.als";
 //        String filename = "/Users/yuchenxi/1m.als";
         // Parse+typecheck the model
@@ -526,8 +526,8 @@ public final class ExampleUsingTheCompiler {
         }
         options.symmetry=20;
 
-        String filenames = "/Users/yuchenxi/dsl/Project/Implementation/splmodel/Banking_Machine/b.als";
-//        String filenames = args[1];
+//        String filenames = "/Users/yuchenxi/dsl/Project/Implementation/splmodel/Banking_Machine/b.als";
+        String filenames = args[1];
 //        String filenames = "/Users/yuchenxi/1m.als";
         world = CompUtil.parseEverything_fromFile(rep, null, filenames);
 
